@@ -5,7 +5,7 @@ export const getCurrentLocationData = async loc => {
         const { latitude, longitude } = loc.coords;
         if(!latitude || !longitude) return;
         const latLangString = `${latitude},${longitude}`;
-        const url = `http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=${apiKey}&q=${latLangString}`;
+        const url = `https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=${apiKey}&q=${latLangString}`;
         const response = await fetch(url);
         const positionData = await response.json();
         return positionData;
