@@ -1,0 +1,9 @@
+.weather-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.temp-units {
+    width:150px;
+}

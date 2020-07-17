@@ -1,0 +1,11 @@
+.forecast-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.city-forecast {
+    display: flex;
+    justify-content: center;
+}
+
