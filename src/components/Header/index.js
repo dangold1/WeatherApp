@@ -38,7 +38,7 @@ const Header = (props) => {
         <div className={classes.root}>
             <AppBar position="fixed">
                 <Toolbar>
-                    <Typography variant="h6" className={classes.title}>Herolo Weather Task</Typography>
+                    <Typography variant="h6" className={classes.title}>Forecast Weather App</Typography>
                     <Link className={classes.link} to="/">
                         <Tooltip title="Home">
                             <IconButton className={classes.iconButton}><HomeIcon /></IconButton>
